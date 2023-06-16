@@ -1,0 +1,101 @@
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .mt-5 {
+    margin-top: 2rem !important;
+  }
+
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .form-group label {
+    font-weight: bold;
+  }
+
+  .form-control {
+    border-radius: 0;
+  }
+
+  .btn-primary {
+    border-radius: 0;
+  }
+
+  .confirmation-message {
+    display: none;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .confirmation-message h3 {
+    font-size: 24px;
+  }
+
+  .payment-method-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  .payment-method-label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+
+  .paypal-logo {
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  .credit-card-logos img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+  }
+
+  .payment-form {
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+
+  .form-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+
+  .form-control {
+    height: 40px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .form-control.is-invalid {
+    border-color: red;
+  }

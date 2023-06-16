@@ -1,0 +1,79 @@
+
+    <html>
+    <head>
+        <title>Informe de Vulnerabilidades</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                background-color: #f2f9ff;
+            }
+            .container {
+                background-color: transparent;
+                padding: 20px;
+                max-width: 600px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .host-title {
+                margin-bottom: 20px;
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 10px;
+            }
+            .port {
+                margin-bottom: 20px;
+                padding: 10px;
+                background-color: #ffffff;
+            }
+            .vulnerability {
+                margin-left: 20px;
+                list-style-type: square;
+            }
+            .alert-types {
+                background-color: #ffffff;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+            .alert-types ul {
+                margin-left: 20px;
+                list-style-type: none;
+            }
+            .alert-types .dot {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                margin-right: 5px;
+            }
+            .low-risk .dot {
+                background-color: green;
+            }
+            .important-risk .dot {
+                background-color: orange;
+            }
+            .critical-risk .dot {
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="host-title">
+                <h2>Tu red en Zaragoza (192.168.1.1)</h2>
+            </div>
+    <div class='port'><h3>Host: 192.168.1.1</h3><h3>1.- 21/tcp - State: filtered</h3><p>No se encontraron vulnerabilidades.</p><h3>2.- 22/tcp - State: filtered</h3><p>No se encontraron vulnerabilidades.</p><h3>3.- 80/tcp - State: open</h3><p>No se encontraron vulnerabilidades.</p><h3>4.- 443/tcp - State: open</h3><p>No se encontraron vulnerabilidades.</p></div>
+        <div class="alert-types">
+            <h3>Tipos de alertas</h3>
+            <ul>
+                <li class="low-risk"><span class="dot"></span>Riesgo bajo</li>
+                <li class="important-risk"><span class="dot"></span>Riesgo importante</li>
+                <li class="critical-risk"><span class="dot"></span>Riesgo crítico</li>
+            </ul>
+        </div>
+    </div>
+    </body>
+    </html>
+    

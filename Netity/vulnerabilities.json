@@ -1,0 +1,27 @@
+[
+    {
+        "Host": "192.168.1.1",
+        "Ports": [
+            {
+                "Port": "1.- 21/tcp",
+                "State": "filtered",
+                "Vulnerabilities": []
+            },
+            {
+                "Port": "2.- 22/tcp",
+                "State": "filtered",
+                "Vulnerabilities": []
+            },
+            {
+                "Port": "3.- 80/tcp",
+                "State": "open",
+                "Vulnerabilities": []
+            },
+            {
+                "Port": "4.- 443/tcp",
+                "State": "open",
+                "Vulnerabilities": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,88 @@
+body,
+html {
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  height: 90vh;
+  align-items: center;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-control {
+  border-width: 2px;
+  border-color: #2D9BF0;
+  padding: 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.btn-primary {
+  background-color: #2D9BF0;
+  border-color: #2D9BF0;
+}
+
+.image-container {
+  flex: 0 0 auto;
+  margin-right: 200px;
+  z-index: -1;
+
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 510px;
+  height: auto;
+}
+
+.logo-container2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+
+}
+
+.logo-container2 img {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+
+}
+
+.logo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.logo-container img {
+  max-height: 200px;
+}
+
+.eye-button {
+  border-color: #2D9BF0;
+  border-width: 2px;
+
+}
+
+.eye-icon {
+  color: #2D9BF0;
+}
+
+
+.validation-error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 0.2em;
+  white-space: pre-wrap
+}

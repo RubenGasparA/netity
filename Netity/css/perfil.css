@@ -1,0 +1,29 @@
+
+  .dropdown-toggle {
+    outline: 0;
+  }
+ 
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  .sidebar {
+    background-color: #2D9BF0 !important;
+  }
+  
+  a {
+    color: white !important;
+  }
+    
+  h2 {
+    font-family: serif;
+  }
+
+
+  .validation-error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.2em;
+    white-space: pre-wrap
+  }
